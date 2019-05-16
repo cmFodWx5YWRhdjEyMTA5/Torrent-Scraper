@@ -1,0 +1,41 @@
+I want a complex torrent scraping bot programmed in Python.
+
+It needs to be able to browse, scrape, and collect the following information in a CSV file. https://en.wikipedia.org/wiki/Comma-separated_values
+
+Name, Date Created/Added, Size, Number of Seeds, Magnet/Hash
+
+These are the sites I need it to scrape.
+
+https://www.limetorrents.info/browse-torrents/
+
+https://torrentgalaxy.org/torrents.php
+
+https://worldwidetorrents.to/torrents.php
+
+https://glodls.to/browse.php
+
+https://eztv.io
+
+https://rarbg.to/torrents.php
+
+https://1337x.to/home/
+
+https://thepiratebay.org
+
+https://nyaa.si
+
+https://nyaa.pantsu.cat
+
+https://anidex.info
+
+I want it to be fast. So if I need to buy paid proxies I will
+
+Bot should support proxy lists in order to avoid being banned.
+
+Bot should be programmed in Python & turned into an easy to use exe when done.
+
+You can do this with http://www.pyinstaller.org or https://pypi.org/project/py2exe/0.9.2.0/
+
+Also, I forgot to mention, after its done scraping, it should check for duplicates by comparing magnet/hash and remove any duplicates.
+
+Bot should also remove any listings that don't have at least 1 seed.
